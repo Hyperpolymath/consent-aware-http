@@ -1,0 +1,85 @@
+draft-jewell-http-430-consent-required-00.txt
+
+HTTP Status Code 430: Consent Required
+Jonathan D.A. Jewell
+NUJ Ethics Council, Convenor AI & Data Working Group
+National Union of Journalists
+Expires: 14 January 2026
+14 July 2025
+
+Abstract
+
+This document defines HTTP status code 430 (Consent Required), intended for use when access to a resource is denied due to the absence of a valid AI usage consent declaration. It supports machine-readable governance frameworks such as the AI Boundary Declaration Protocol (AIBDP), enabling declarative boundaries that prevent unauthorized indexing, training, or generative reuse of online content.
+
+Status of This Memo
+
+This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79. This document may not be appropriate for use after its expiration date and is subject to change.
+
+Copyright Notice
+
+Copyright (c) 2025 IETF Trust and the persons identified as authors of the code. All rights reserved.
+
+1. Introduction
+
+Current HTTP status codes such as 403 (Forbidden), 428 (Precondition Required), and 451 (Unavailable for Legal Reasons) do not adequately reflect denial scenarios based on missing or invalid AI consent declarations. As declarative perimeter protocols (e.g., AIBDP) become more prevalent, a distinct status code is required to denote procedural consent failure prior to content access.
+
+HTTP status code 430 (Consent Required) is proposed to signal that the requesting entity has failed to verify or respect the declared boundaries associated with AI ingestion, training, or derivative generation.
+
+2. Definition
+
+Status Code: 430
+Phrase: Consent Required
+
+The server denies access because the client failed to verify or satisfy AI-specific consent declarations associated with the requested content. This denial applies in cases where a `.well-known/aibdp.json` manifest is present or expected, and no sufficient verification or compliance has occurred.
+
+3. Response Examples
+
+HTTP/1.1 430 Consent Required  
+Content-Type: application/json  
+Link: <https://example.org/.well-known/aibdp.json>; rel="blocked-by"  
+Retry-After: 86400  
+
+{
+  "error": "Consent declaration missing or invalid.",
+  "reference": "https://example.org/.well-known/aibdp.json"
+}
+
+4. Use Cases
+
+- AI crawlers and bots accessing content without checking for declarative usage terms
+- Autonomous agents initiating training operations on hosted data without pre-verification
+- Content Delivery Networks (CDNs) enforcing perimeter logic via manifest signals
+- Infrastructure providers enabling rate-limiting or denial logic based on absence of consent
+
+5. Comparison to Existing Status Codes
+
+403 (Forbidden): Generic denial; lacks boundary intent or procedural context.  
+428 (Precondition Required): Designed for conditional requests; not consent-specific.  
+451 (Unavailable for Legal Reasons): Legal enforcement only; not suited for declarative publisher-led refusals.
+
+430 (Consent Required): Represents non-legal, machine-readable perimeter logic. Expresses absence of verified permission, rather than technical or legal failure.
+
+6. Security Considerations
+
+Use of 430 Consent Required does not reveal sensitive internal logic or compromise user data. It enforces publisher-defined AI boundaries while preserving public accessibility of the perimeter declaration. This status code supports structured denial without over-identification of request origin.
+
+7. IANA Considerations
+
+This document requests that IANA register the status code 430 (Consent Required) in the HTTP Status Code Registry.
+
+8. References
+
+[RFC7231] Fielding, R., et al., "HTTP/1.1 Semantics and Content", RFC 7231, June 2014.  
+[RFC7725] Cooper, A., "An HTTP Status Code to Report Legal Obstacles", RFC 7725, February 2016.  
+[AIBDP] Jewell, J., "AI Boundary Declaration Protocol", Work in Progress, draft-jewell-aibdp-00.txt, 2025.
+
+Acknowledgements
+
+This proposal builds on ethical governance efforts in journalism, computing, and infrastructure architecture. Thanks to contributors from the NUJ, the IETF HTTPAPI and ART areas, and transparency coalitions engaging in boundary-aware standards formation.
+
+Author's Address
+
+Jonathan D.A. Jewell
+NUJ Ethics Council, Convenor AI & Data Working Group
+National Union of Journalists   
+Email: jonathan@metadatastician.art
