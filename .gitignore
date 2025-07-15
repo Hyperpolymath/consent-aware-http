@@ -1,0 +1,14 @@
+# RFC Tooling
+*.pdf
+*.html
+*.txt
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
