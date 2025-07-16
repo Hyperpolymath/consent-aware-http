@@ -88,8 +88,8 @@ Creative Commons Attribution-ShareAlike 4.0 — fosters open improvement and eth
 ✨ Built By
 
 Jonathan D.A. Jewell NEC PRC Representative 
-· NUJ Ethics Council Convenor 
-· AI & Data Working Group 
+· NUJ Ethics Council
+· Convenor: AI & Data Working Group 
 Contact: jonathan@metadatastician.art
 
 “The act of naming is the act of creating boundaries. And boundary is where meaning begins.” — Bell Hooks
