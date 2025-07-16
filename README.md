@@ -11,8 +11,6 @@ Introduces the AI Boundary Declaration Protocol (AIBDP) — a machine-readable m
 
 Together, these protocols establish declarative boundaries that resist unauthorized training, indexing, or generative reuse — compatible with federated infrastructure and public web publishing alike.
 
-<img width="333" height="576" alt="image" src="https://github.com/user-attachments/assets/f5c52a7f-b01b-470a-9a4c-d86fbfcdbe28" />
-
 
 
 ⚙️ Quick Links
