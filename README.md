@@ -1,5 +1,5 @@
 Consent-Aware HTTP: Declarative Boundaries for AI Usage
-“You have not the freedom of the house.” — Virginia Woolf, The Waves
+“You have not the freedom of the house.” - Virginia Woolf, The Waves
 
 This repository hosts formal proposals, implementation materials, and ethical guidance for a consent-aware architecture in the age of generative systems. At its heart are two interlinked Internet-Drafts designed to enforce procedural refusals when AI usage boundaries are unmet or ignored:
 
@@ -7,9 +7,9 @@ This repository hosts formal proposals, implementation materials, and ethical gu
 Defines HTTP Status Code 430 Consent Required, enabling servers to reject access when AI-specific consent declarations are invalid, missing, or violated. It empowers refusal not as punishment, but as principled perimeter enforcement.
 
 🧭 draft-jewell-aibdp
-Introduces the AI Boundary Declaration Protocol (AIBDP) — a machine-readable manifest (/.well-known/aibdp.json) for signaling what forms of AI engagement are permitted. It formalizes intent, fosters transparency, and restores agency to originators.
+Introduces the AI Boundary Declaration Protocol (AIBDP) - a machine-readable manifest (/.well-known/aibdp.json) for signaling what forms of AI engagement are permitted. It formalizes intent, fosters transparency, and restores agency to originators.
 
-Together, these protocols establish declarative boundaries that resist unauthorized training, indexing, or generative reuse — compatible with federated infrastructure and public web publishing alike.
+Together, these protocols establish declarative boundaries that resist unauthorized training, indexing, or generative reuse - compatible with federated infrastructure and public web publishing alike.
 
 
 
@@ -27,7 +27,7 @@ Together, these protocols establish declarative boundaries that resist unauthori
 
 🌱 Why This Matters
 
-AI systems often ingest, embed, and regenerate content without consent — erasing boundary, authorship, and intent. These drafts restore procedural clarity to web interactions, allowing creators to:
+AI systems often ingest, embed, and regenerate content without consent - erasing boundary, authorship, and intent. These drafts restore procedural clarity to web interactions, allowing creators to:
 
 Refuse generative reuse without legal escalation
 
@@ -47,7 +47,7 @@ Use start-here.md for templates, examples, and server configs
 
 Join discussions in the IndieWeb, Fediverse, or IETF circles to promote shared adoption
 
-These standards can be implemented independently of platform, license, or scale — ideal for personal blogs, union archives, CDN layers, or federated identity services.
+These standards can be implemented independently of platform, license, or scale - ideal for personal blogs, union archives, CDN layers, or federated identity services.
 
 🪧 Ethics and Governance
 
@@ -80,10 +80,10 @@ Adoption stories and outreach coordination
 🧾 Licensing
 
 Code and draft content: 
-MIT License — free for reuse and adaptation with attribution
+MIT License - free for reuse and adaptation with attribution
 
 Documentation, narrative, and guides: 
-Creative Commons Attribution-ShareAlike 4.0 — fosters open improvement and ethical propagation
+Creative Commons Attribution-ShareAlike 4.0 - fosters open improvement and ethical propagation
 
 ✨ Built By
 
@@ -92,4 +92,4 @@ Jonathan D.A. Jewell NEC PRC Representative
 · Convenor: AI & Data Working Group 
 Contact: jonathan@metadatastician.art
 
-“The act of naming is the act of creating boundaries. And boundary is where meaning begins.” — Bell Hooks
+“The act of naming is the act of creating boundaries. And boundary is where meaning begins.” - Bell Hooks
