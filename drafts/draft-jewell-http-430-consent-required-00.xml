@@ -6,7 +6,7 @@
      submissionType="independent"
      xml:lang="en"
      version="3"
-     expiresDate="2026-01-14">
+     expiresDate="2026-01-26">
 
   <front>
     <title abbrev="Consent Required">HTTP Status Code 430: Consent Required</title>
@@ -17,7 +17,7 @@
         <email>jonathan@metadatastician.art</email>
       </address>
     </author>
-    <date year="2025" month="7" day="14"/>
+    <date year="2025" month="7" day="26"/>
     <abstract>
       <t>This document defines HTTP status code 430 (Consent Required), intended for use when access to a resource is denied due to the absence of a valid AI usage consent declaration. It supports machine-readable governance frameworks such as the AI Boundary Declaration Protocol, enabling declarative boundaries that prevent unauthorized indexing, training, or generative reuse of online content.</t>
     </abstract>

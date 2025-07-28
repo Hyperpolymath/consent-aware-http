@@ -2,7 +2,7 @@
 
 ## 🧭 Topic
 
-Brief title or question — e.g., "Can AIBDP work with IndieWeb microformats?"
+Brief title or question - e.g., "Can AIBDP work with IndieWeb microformats?"
 
 ## 💬 Framing
 
