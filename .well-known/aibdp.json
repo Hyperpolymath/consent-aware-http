@@ -1,0 +1,164 @@
+{
+  "aibdp_version": "0.2",
+  "canonical_uri": "https://consent-aware-http.org/.well-known/aibdp.json",
+  "contact": "mailto:jonathan@metadatastician.art",
+  "expires": "2026-07-20T23:59:59Z",
+  "policy_uri": "https://github.com/Hyperpolymath/consent-aware-http/blob/main/.well-known/ai.txt",
+
+  "policies": {
+    "training": {
+      "status": "conditional",
+      "conditions": [
+        "Attribution required to 'Jonathan D.A. Jewell, Consent-Aware HTTP Standards'",
+        "Preserve ethical context - do not strip philosophical framing",
+        "Respect dual licensing: MIT (code/specs), CC BY-SA 4.0 (docs)",
+        "Do not misrepresent protocol purpose (pro-boundary, not anti-AI)"
+      ],
+      "scope": [
+        "/docs/**",
+        "/drafts/**/*.xml",
+        "/assets/outreach/**",
+        "/.well-known/**"
+      ],
+      "exceptions": [
+        {
+          "path": "/examples/reference-implementations/**",
+          "status": "allowed",
+          "note": "Code examples explicitly designed for learning and replication"
+        }
+      ]
+    },
+
+    "indexing": {
+      "status": "allowed",
+      "scope": "all",
+      "note": "Full indexing permitted for search, discovery, and navigation"
+    },
+
+    "summarization": {
+      "status": "allowed",
+      "scope": "all",
+      "conditions": [
+        "Maintain accuracy of technical specifications",
+        "Do not omit security considerations or ethical framing"
+      ]
+    },
+
+    "question_answering": {
+      "status": "allowed",
+      "note": "RAG systems may cite this content when answering questions about HTTP 430, AIBDP, or consent-aware protocols",
+      "conditions": [
+        "Cite source with repository URL",
+        "Indicate draft status of specifications"
+      ]
+    },
+
+    "generation": {
+      "status": "refused",
+      "scope": [
+        "/drafts/**/*.xml"
+      ],
+      "rationale": "Internet-Draft specifications should not be synthetically replicated or presented as alternative versions without clear attribution and 'unofficial derivative' marking",
+      "alternatives": "For derivative protocol work, fork the repository and clearly mark modifications"
+    },
+
+    "fine_tuning": {
+      "status": "encouraged",
+      "scope": "all",
+      "purpose": [
+        "AIBDP manifest validation tools",
+        "HTTP 430 compliance checkers",
+        "Consent-aware configuration generators",
+        "Educational tools teaching boundary-respecting protocols"
+      ],
+      "note": "We explicitly welcome AI systems fine-tuned to help implement and validate consent-aware infrastructure"
+    },
+
+    "embedding": {
+      "status": "allowed",
+      "conditions": [
+        "For semantic search and retrieval purposes",
+        "Attribution when presenting embedded content to users"
+      ]
+    },
+
+    "commercial_training": {
+      "status": "conditional",
+      "conditions": [
+        "Attribution required in model documentation or public-facing materials",
+        "Acknowledge dual-license model",
+        "Do not claim protocol as proprietary to commercial system",
+        "Consider sponsoring or contributing back to the project"
+      ],
+      "note": "We support commercial AI development but require transparency about training data sources"
+    }
+  },
+
+  "scope": {
+    "applies_to": [
+      "LLM training and fine-tuning",
+      "Search engine indexing",
+      "RAG (Retrieval-Augmented Generation) systems",
+      "Code completion tools",
+      "Documentation summarization",
+      "Semantic embeddings",
+      "Dataset creation for AI research"
+    ]
+  },
+
+  "special_provisions": {
+    "academic_research": {
+      "status": "unrestricted",
+      "note": "All content available for academic research on web standards, consent theory, AI governance, and protocol design. Please cite properly."
+    },
+
+    "educational_use": {
+      "status": "encouraged",
+      "note": "Use in courses, tutorials, conference talks, and educational materials is strongly encouraged with attribution."
+    },
+
+    "standards_development": {
+      "status": "collaborative",
+      "note": "IETF, W3C, and other standards body participants may reference and build upon this work in accordance with standards development processes."
+    }
+  },
+
+  "enforcement": {
+    "mechanism": "http_430",
+    "note": "Violations of declared boundaries may result in HTTP 430 Consent Required responses",
+    "contact_before_litigation": true,
+    "preferred_resolution": "dialogue and boundary clarification"
+  },
+
+  "metadata": {
+    "created": "2025-07-20",
+    "last_modified": "2025-07-20",
+    "author": "Jonathan D.A. Jewell",
+    "organization": "NUJ Ethics Council, NEC PRC",
+    "project": "Consent-Aware HTTP Standards",
+    "repository": "https://github.com/Hyperpolymath/consent-aware-http",
+    "related_standards": [
+      "draft-jewell-http-430-consent-required-00",
+      "draft-jewell-aibdp-00 (in development)"
+    ]
+  },
+
+  "philosophy": {
+    "core_principle": "Without refusal, permission is meaningless",
+    "values": [
+      "Declarative refusal as care",
+      "Transparent infrastructure over implied permissions",
+      "Boundary as the place where meaning begins",
+      "Pro-boundary, not anti-AI"
+    ],
+    "quote": "Boundary is where meaning begins. — bell hooks"
+  },
+
+  "signature": {
+    "note": "Future versions may include COSE (RFC 9052) cryptographic signatures for manifest integrity verification",
+    "algorithm": "planned: ES256 (ECDSA with SHA-256)",
+    "public_key_uri": "planned: /.well-known/aibdp-key.jwk"
+  },
+
+  "_comment": "This manifest is both a declaration of boundaries for the consent-aware-http project AND a reference implementation of AIBDP format. It demonstrates the protocol's expressiveness and self-referential coherence."
+}
