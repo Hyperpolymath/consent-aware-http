@@ -1,0 +1,206 @@
+{
+  "$schema": "https://consent-aware-http.org/schemas/provenance-v1.json",
+  "spdx-license-identifier": "CC0-1.0",
+  "spdx-file-copyright-text": "2025 Jonathan D.A. Jewell",
+
+  "provenance_version": "1.0",
+  "canonical_uri": "https://consent-aware-http.org/.well-known/provenance.json",
+  "last_updated": "2025-07-20T00:00:00Z",
+
+  "project": {
+    "name": "Consent-Aware HTTP Standards",
+    "description": "HTTP 430 (Consent Required) + AIBDP (AI Boundary Declaration Protocol)",
+    "repository": "https://github.com/Hyperpolymath/consent-aware-http",
+    "website": "https://consent-aware-http.org",
+    "license": "MIT OR GPL-3.0-or-later (code), CC-BY-SA-4.0 (docs), Palimpsest-0.8 (encouraged)"
+  },
+
+  "authorship": {
+    "primary_author": {
+      "name": "Jonathan D.A. Jewell",
+      "email": "jonathan@metadatastician.art",
+      "orcid": "",
+      "affiliation": "NEC PRC Representative, NUJ Ethics Council",
+      "role": "Protocol Designer, Lead Maintainer, Ethics Convenor"
+    },
+    "contributors": [],
+    "attribution_policy": "All contributors acknowledged in CHANGELOG.md and Git history"
+  },
+
+  "provenance_chain": [
+    {
+      "date": "2025-07-20",
+      "event": "Initial repository creation and specification authoring",
+      "author": "Jonathan D.A. Jewell",
+      "commit": "73d6bf9",
+      "description": "HTTP 430 Internet-Draft and initial documentation"
+    },
+    {
+      "date": "2025-07-20",
+      "event": "AIBDP specification completion",
+      "author": "Jonathan D.A. Jewell (with AI assistance: Claude-3.5-Sonnet)",
+      "commit": "dbc98f9",
+      "description": "Complete AIBDP Internet-Draft (draft-jewell-aibdp-00.xml) with JSON Schema"
+    },
+    {
+      "date": "2025-07-20",
+      "event": "Reference implementations (Node.js, Python)",
+      "author": "Jonathan D.A. Jewell (with AI assistance: Claude-3.5-Sonnet)",
+      "commits": ["52b3afe", "5c54ab1"],
+      "description": "Production-ready Express and Flask middleware"
+    },
+    {
+      "date": "2025-07-20",
+      "event": "Comprehensive documentation expansion",
+      "author": "Jonathan D.A. Jewell (with AI assistance: Claude-3.5-Sonnet)",
+      "commits": ["a3334d1", "0d2d643", "8f5e901"],
+      "description": "Server configs, manifest scenarios, FAQ (60+ questions), 25,000+ words"
+    },
+    {
+      "date": "2025-07-20",
+      "event": "RSR Gold compliance implementation",
+      "author": "Jonathan D.A. Jewell (with AI assistance: Claude-3.5-Sonnet)",
+      "commit": "current",
+      "description": "README.adoc, LICENSE.txt, GOVERNANCE.adoc, FUNDING.yml, .well-known/ expansion"
+    }
+  ],
+
+  "ai_assistance_disclosure": {
+    "used_ai": true,
+    "ai_system": "Claude-3.5-Sonnet (Anthropic)",
+    "ai_role": "Autonomous development assistance",
+    "human_oversight": "Jonathan D.A. Jewell (full review and approval authority)",
+    "transparency_note": "This project was developed with extensive AI assistance during a time-limited autonomous development session. All generated code, specifications, and documentation are subject to human review and acceptance. This disclosure embodies the consent-aware principles the project standardizes."
+  },
+
+  "dependencies": {
+    "runtime": [
+      {
+        "name": "Node.js",
+        "version": ">=18.0.0",
+        "license": "MIT",
+        "usage": "Reference implementation (Express middleware)"
+      },
+      {
+        "name": "Python",
+        "version": ">=3.9",
+        "license": "PSF",
+        "usage": "Reference implementation (Flask middleware)"
+      },
+      {
+        "name": "Express",
+        "version": "^4.18.0",
+        "license": "MIT",
+        "usage": "Node.js web framework"
+      },
+      {
+        "name": "Flask",
+        "version": ">=3.0.0",
+        "license": "BSD-3-Clause",
+        "usage": "Python web framework"
+      }
+    ],
+    "development": [
+      {
+        "name": "xml2rfc",
+        "version": "latest",
+        "license": "BSD-3-Clause",
+        "usage": "Internet-Draft rendering"
+      },
+      {
+        "name": "just",
+        "version": "latest",
+        "license": "CC0-1.0",
+        "usage": "Task runner"
+      },
+      {
+        "name": "Nix",
+        "version": "latest",
+        "license": "LGPL-2.1",
+        "usage": "Reproducible builds"
+      }
+    ]
+  },
+
+  "standards_compliance": {
+    "ietf_drafts": [
+      {
+        "name": "draft-jewell-http-430-consent-required-00",
+        "status": "Internet-Draft",
+        "target": "IETF HTTP Working Group",
+        "file": "draft-jewell-http-430-consent-required-00.xml"
+      },
+      {
+        "name": "draft-jewell-aibdp-00",
+        "status": "Internet-Draft",
+        "target": "IETF or W3C",
+        "file": "drafts/draft-jewell-aibdp-00.xml"
+      }
+    ],
+    "rfc_compliance": [
+      "RFC 2119 (Requirement Levels)",
+      "RFC 7991 (xml2rfc v3)",
+      "RFC 8259 (JSON)",
+      "RFC 8615 (Well-Known URIs)",
+      "RFC 9052 (COSE)",
+      "RFC 9116 (security.txt)"
+    ],
+    "rsr_compliance": {
+      "framework": "Rhodium Standard Repository (RSR)",
+      "version": "1.0.0",
+      "target_level": "Gold",
+      "status": "In Progress",
+      "date": "2025-07-20"
+    }
+  },
+
+  "philosophical_foundations": {
+    "core_principle": "Without refusal, permission is meaningless",
+    "influences": [
+      {
+        "source": "bell hooks",
+        "concept": "Boundary is where meaning begins",
+        "application": "Boundary-setting as dignity and care"
+      },
+      {
+        "source": "Virginia Woolf",
+        "work": "The Waves",
+        "concept": "You have not the freedom of the house",
+        "application": "Architectural refusal as self-determination"
+      },
+      {
+        "source": "Journalism Ethics (NUJ, SPJ)",
+        "concept": "Right to decline co-option",
+        "application": "Professional boundaries and consent"
+      },
+      {
+        "source": "IndieWeb",
+        "concept": "Own your data, federated publishing",
+        "application": "Self-sovereignty and distributed control"
+      }
+    ]
+  },
+
+  "audit_trail": {
+    "git_repository": "https://github.com/Hyperpolymath/consent-aware-http",
+    "commit_history": "Full Git history preserves all changes",
+    "spdx_headers": "All source files include SPDX identifiers",
+    "license_audit": "Run `just audit-licence` to verify compliance",
+    "changelog": "See CHANGELOG.md for detailed version history"
+  },
+
+  "contact": {
+    "maintainer": "jonathan@metadatastician.art",
+    "issues": "https://github.com/Hyperpolymath/consent-aware-http/issues",
+    "discussions": "https://github.com/Hyperpolymath/consent-aware-http/discussions",
+    "security": "See .github/SECURITY.md"
+  },
+
+  "metadata": {
+    "created": "2025-07-20",
+    "provenance_schema_version": "1.0",
+    "next_review": "2026-07-20"
+  },
+
+  "_comment": "This provenance file embodies transparency and accountability - core values of the consent-aware HTTP protocols. It documents the full creative and technical provenance of this project, including AI assistance disclosure."
+}
