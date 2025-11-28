@@ -1,7 +1,12 @@
-# RFC Tooling
+# RFC Tooling (rendered outputs)
 *.pdf
 *.html
-*.txt
+rendered/*.txt
+
+# But keep these important .txt files
+!LICENSE.txt
+!LICENSE-*.txt
+!.well-known/*.txt
 
 # Editor/OS files
 .DS_Store
