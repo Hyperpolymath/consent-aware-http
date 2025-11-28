@@ -1,10 +1,13 @@
+# SPDX-License-Identifier: MIT OR GPL-3.0-or-later
+# SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
+
 """
 AIBDP + HTTP 430 Middleware for Flask
 
 Implements AI Boundary Declaration Protocol (AIBDP) enforcement
 with HTTP 430 (Consent Required) responses for Flask applications.
 
-License: MIT
+License: MIT OR GPL-3.0-or-later
 Author: Jonathan D.A. Jewell <jonathan@metadatastician.art>
 """
 

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT OR GPL-3.0-or-later
+// SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
+
 /**
  * AIBDP + HTTP 430 Middleware for Express
  *
@@ -5,7 +8,7 @@
  * with HTTP 430 (Consent Required) responses.
  *
  * @module aibdp-http430-middleware
- * @license MIT
+ * @license MIT OR GPL-3.0-or-later
  */
 
 import fs from 'fs/promises';
