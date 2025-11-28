@@ -1,0 +1,49 @@
+# Canonical: https://consent-aware-http.org/.well-known/security.txt
+# RFC 9116 Compliant Security Policy for Consent-Aware HTTP Standards
+
+Contact: mailto:jonathan@metadatastician.art
+Expires: 2026-07-20T23:59:59.000Z
+Preferred-Languages: en, es, fr, de
+Canonical: https://github.com/Hyperpolymath/consent-aware-http/.well-known/security.txt
+
+# Encryption
+# PGP key available upon request for sensitive disclosures
+
+# Policy
+Policy: https://github.com/Hyperpolymath/consent-aware-http/blob/main/.github/SECURITY.md
+
+# Acknowledgments
+# We appreciate responsible disclosure and will credit security researchers
+# who help improve the safety of consent-aware protocols.
+Acknowledgments: https://github.com/Hyperpolymath/consent-aware-http/blob/main/CHANGELOG.md
+
+# Hiring
+# This is a volunteer-driven standards project, not a commercial entity.
+# However, we welcome collaborators and co-maintainers.
+
+# Scope
+# This repository contains:
+# - Internet-Draft XML specifications (HTTP 430, AIBDP)
+# - Documentation and educational materials
+# - Reference implementation examples
+# - Manifest schemas and validation tools
+#
+# Security concerns may include:
+# - Vulnerabilities in reference code (validator tools, server middleware)
+# - AIBDP manifest schema exploits (JSON injection, COSE signature bypass)
+# - Documentation errors that could lead to insecure implementations
+# - Protocol design flaws in HTTP 430 or AIBDP specifications
+#
+# Out of scope:
+# - Third-party implementations not in this repository
+# - General AI/LLM behavior (unless directly related to AIBDP violation)
+# - Content of websites using HTTP 430 (report to those sites directly)
+
+# Additional Context
+# This project is rooted in consent theory and ethical infrastructure.
+# Security vulnerabilities undermine trust in boundary-respecting protocols.
+# We treat responsible disclosure as a form of care and collaborative dignity.
+#
+# "Without refusal, permission is meaningless."
+#
+# Thank you for helping protect consent-aware infrastructure.

@@ -1,0 +1,149 @@
+# AI Usage Declaration for Consent-Aware HTTP Standards Project
+# Location: /.well-known/ai.txt
+# Format: Inspired by robots.txt, compatible with emerging AI crawl standards
+# Updated: 2025-07-20
+
+# This file declares AI usage boundaries for this repository.
+# While not yet a formal standard, it demonstrates the consent-aware
+# principles embodied by HTTP 430 and AIBDP protocols.
+
+# === PERMITTED AI USES ===
+
+# Training: ALLOWED (with conditions)
+# This specification repository's content may be used for AI training
+# under the following conditions:
+# 1. Attribution to Jonathan D.A. Jewell and the consent-aware-http project
+# 2. Preservation of ethical context (don't strip philosophical framing)
+# 3. No misrepresentation of protocol purpose (it's pro-boundary, not anti-AI)
+# 4. Respect for dual licensing (MIT for code, CC BY-SA 4.0 for docs)
+
+User-agent: *
+Allow: /docs/
+Allow: /drafts/
+Allow: /assets/
+Allow: /.well-known/
+Allow: /scripts/
+Usage: training
+Conditions: attribution-required, context-preserved, license-respected
+
+# Indexing: ALLOWED (unrestricted)
+# All content may be indexed for search, retrieval, and discoverability
+User-agent: *
+Allow: /
+Usage: indexing
+
+# Summarization: ALLOWED
+# AI systems may summarize content for research, education, or navigation
+User-agent: *
+Allow: /
+Usage: summarization
+
+# Question-Answering: ALLOWED
+# RAG (Retrieval-Augmented Generation) systems may reference this content
+# when answering questions about consent-aware protocols, HTTP 430, or AIBDP
+User-agent: *
+Allow: /
+Usage: question-answering
+
+# === RESTRICTED AI USES ===
+
+# Generative Replication: RESTRICTED
+# Do not generate synthetic "alternative versions" of Internet-Drafts
+# or create derivative protocol specifications without clear attribution
+# and indication that they are unofficial derivatives.
+User-agent: *
+Disallow: /drafts/*.xml
+Usage: generative-replication
+Conditions: attribution-required, derivative-marked
+
+# Commercial Training: REQUIRES ATTRIBUTION
+# If training commercial AI models, you MUST:
+# 1. Attribute the source
+# 2. Acknowledge the dual-license model
+# 3. Not claim the protocol as proprietary to your system
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Claude-Web
+User-agent: Google-Extended
+User-agent: anthropic-ai
+User-agent: Amazonbot
+Allow: /
+Usage: training
+Conditions: attribution-required, license-respected, non-proprietary
+
+# === SPECIAL CASES ===
+
+# Fine-Tuning for Compliance Tools: ENCOURAGED
+# We explicitly welcome AI systems fine-tuned to:
+# - Validate AIBDP manifests
+# - Check HTTP 430 compliance
+# - Generate consent-aware configurations
+# - Teach developers about boundary-respecting protocols
+User-agent: *
+Allow: /
+Usage: fine-tuning
+Purpose: compliance-tools, education, validation
+
+# Academic Research: UNRESTRICTED
+# All content available for academic research on:
+# - Web standards and protocol design
+# - Consent theory and ethical infrastructure
+# - AI governance and boundary declaration
+# - Federated systems and self-sovereign publishing
+User-agent: *
+Allow: /
+Usage: research
+Conditions: cite-properly
+
+# === AIBDP MANIFEST REFERENCE ===
+
+# For a complete, machine-readable AI boundary declaration,
+# see the AIBDP manifest (when available):
+# https://consent-aware-http.org/.well-known/aibdp.json
+
+# This project IS the reference implementation of consent-aware protocols.
+# How we declare our own boundaries matters.
+
+# === CONTACT ===
+
+# Questions about AI usage of this content:
+# Email: jonathan@metadatastician.art
+# Discussion: https://github.com/Hyperpolymath/consent-aware-http/discussions
+
+# === PHILOSOPHY ===
+
+# This declaration embodies our core principle:
+# "Without refusal, permission is meaningless."
+#
+# We say YES to:
+# - Educational use
+# - Compliance tool development
+# - Academic research
+# - Attributed training data
+#
+# We say CONDITIONAL YES to:
+# - Commercial training (with attribution)
+# - Derivative works (with clear marking)
+#
+# We say NO to:
+# - Misrepresentation of protocol purpose
+# - Stripping ethical context
+# - Claiming protocols as proprietary
+# - Generating "alternative" specs without attribution
+#
+# Boundary is where meaning begins.
+
+# === COMPLIANCE ===
+
+# We recognize that ai.txt is not yet a formal standard.
+# This file serves as:
+# 1. Demonstration of consent declaration practice
+# 2. Good-faith communication to AI system operators
+# 3. Documentation of our usage boundaries
+# 4. Example for others implementing similar policies
+#
+# We hope that projects like ours contribute to the emergence
+# of standardized AI boundary declaration formats - like AIBDP itself.
+
+# Last updated: 2025-07-20
+# Next review: 2026-01-20
