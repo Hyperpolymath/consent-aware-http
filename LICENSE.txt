@@ -1,0 +1,198 @@
+SPDX-License-Identifier: MIT OR GPL-3.0-or-later
+SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
+
+================================================================================
+                    CONSENT-AWARE HTTP STANDARDS PROJECT
+                           Licensing Information
+================================================================================
+
+This project is dual-licensed to provide maximum flexibility while encouraging
+ethical attribution practices.
+
+===============================================================================
+                         PRIMARY LICENSE OPTIONS
+===============================================================================
+
+You may choose EITHER:
+
+  Option A: MIT License (Permissive)
+  Option B: GPL-3.0-or-later (Copyleft)
+
+Both options are equally valid. Choose based on your needs and values.
+
+===============================================================================
+                      PHILOSOPHICALLY ENCOURAGED:
+                        PALIMPSEST LICENSE v0.8
+===============================================================================
+
+We PHILOSOPHICALLY ENCOURAGE (but do not require) dual-licensing under the
+Palimpsest License v0.8 alongside MIT or GPL-3.0+.
+
+WHY PALIMPSEST?
+
+  * Preserves attribution through edit history
+  * Embeds ethical provenance in creative work
+  * Supports solidarity economics
+  * Aligns with consent-aware philosophy
+
+Palimpsest text: See LICENSE-PALIMPSEST.txt
+Learn more: https://palimpsest.license
+
+Palimpsest is OPTIONAL. You are free to choose MIT or GPL-3.0+ alone.
+
+===============================================================================
+                    OPTION A: MIT LICENSE (Default)
+===============================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Full MIT text: LICENSE-MIT.txt
+
+===============================================================================
+                   OPTION B: GPL-3.0-OR-LATER (Alternative)
+===============================================================================
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+Full GPL-3.0 text: LICENSE-GPL-3.0.txt
+
+===============================================================================
+                          DOCUMENTATION LICENSE
+                      Creative Commons BY-SA 4.0
+===============================================================================
+
+Documentation, narrative content, and educational materials are licensed under:
+
+  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+This ensures derivative documentation remains open and properly attributed.
+
+Full CC BY-SA 4.0 text: LICENSE-CC-BY-SA-4.0.txt
+Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+===============================================================================
+                              FILE CATEGORIES
+===============================================================================
+
+CODE & SPECIFICATIONS (Choose MIT or GPL-3.0+):
+  - Internet-Draft XML files (draft-*.xml)
+  - JSON Schema files (schemas/*.json)
+  - Reference implementations (examples/reference-implementations/)
+  - Build scripts (justfile, scripts/)
+  - Nix configurations (flake.nix)
+
+DOCUMENTATION (CC BY-SA 4.0):
+  - All Markdown files (*.md, docs/*)
+  - All AsciiDoc files (*.adoc)
+  - Outreach materials (assets/outreach/)
+  - Example manifests (examples/manifest-scenarios/)
+  - FAQ, guides, tutorials
+
+===============================================================================
+                        HOW TO APPLY THESE LICENSES
+===============================================================================
+
+FOR DOWNSTREAM USERS:
+
+1. Choose MIT or GPL-3.0+ for code/specs (your choice)
+2. Respect CC BY-SA 4.0 for documentation
+3. Optionally add Palimpsest alongside chosen license
+4. Include this LICENSE.txt file
+5. Add SPDX headers to source files
+
+FOR CONTRIBUTORS:
+
+By contributing to this project, you agree that your contributions will be
+licensed under the same terms (MIT OR GPL-3.0-or-later for code, CC BY-SA 4.0
+for documentation).
+
+See CONTRIBUTING.md for detailed contribution guidelines.
+
+===============================================================================
+                           COPYRIGHT INFORMATION
+===============================================================================
+
+Copyright (c) 2025 Jonathan D.A. Jewell
+
+  Email: jonathan@metadatastician.art
+  Affiliation: NEC PRC Representative, NUJ Ethics Council
+  Project: Consent-Aware HTTP Standards (HTTP 430 + AIBDP)
+
+===============================================================================
+                         THIRD-PARTY DEPENDENCIES
+===============================================================================
+
+This project has minimal dependencies. Where third-party code is included,
+it is clearly marked with appropriate license information.
+
+Run `just audit-licence` to verify SPDX compliance across all source files.
+
+===============================================================================
+                           PHILOSOPHICAL NOTE
+===============================================================================
+
+This dual-licensing approach reflects our values:
+
+  * FREEDOM: Choose the license that works for you (MIT or GPL-3.0+)
+  * ATTRIBUTION: We encourage Palimpsest for ethical provenance
+  * CONSENT: Clear licensing = clear boundaries
+  * COMMUNITY: Share-alike for documentation fosters collaboration
+
+"Without refusal, permission is meaningless."
+
+Licensing is not just legal boilerplate - it's a declaration of boundaries
+and values. We respect your choice.
+
+===============================================================================
+                            ADDITIONAL RESOURCES
+===============================================================================
+
+Primary license:           LICENSE.txt (this file)
+MIT full text:             LICENSE-MIT.txt
+GPL-3.0 full text:         LICENSE-GPL-3.0.txt
+Palimpsest full text:      LICENSE-PALIMPSEST.txt
+CC BY-SA 4.0 full text:    LICENSE-CC-BY-SA-4.0.txt
+
+Project repository:        https://github.com/Hyperpolymath/consent-aware-http
+Project website:           https://consent-aware-http.org
+Licensing questions:       jonathan@metadatastician.art
+
+===============================================================================
+                          VERSION INFORMATION
+===============================================================================
+
+License version:       1.0.0
+Last updated:          2025-07-20
+Applies to versions:   All versions of consent-aware-http project
+
+===============================================================================
+END OF LICENSE FILE
+===============================================================================
