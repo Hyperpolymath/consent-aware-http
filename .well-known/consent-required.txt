@@ -1,0 +1,150 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
+#
+# HTTP 430 (Consent Required) Protocol Declaration
+# This file demonstrates the protocol this project is standardizing
+#
+# Format: Inspired by security.txt (RFC 9116) and robots.txt
+# Location: /.well-known/consent-required.txt
+# See: draft-jewell-http-430-consent-required-00.xml
+
+# Canonical location of this file
+Canonical: https://consent-aware-http.org/.well-known/consent-required.txt
+
+# AIBDP Manifest location (machine-readable policies)
+Manifest: https://consent-aware-http.org/.well-known/aibdp.json
+
+# Contact for consent policy questions
+Contact: mailto:jonathan@metadatastician.art
+
+# Policy documentation (human-readable)
+Policy: https://consent-aware-http.org/docs/ethics.md
+
+# Expires (when this declaration should be re-fetched)
+Expires: 2026-07-20T23:59:59Z
+
+# ===================================================================
+# DECLARED AI USAGE BOUNDARIES
+# ===================================================================
+
+# This section declares AI usage boundaries for this repository.
+# These are the boundaries we're documenting and standardizing.
+
+# Training: CONDITIONAL
+# You may use this content for AI training IF:
+#   - Attribution to "Consent-Aware HTTP Standards Project"
+#   - Preserve ethical and philosophical context
+#   - Respect dual licensing (MIT/GPL-3.0+ + CC BY-SA 4.0)
+#   - Do not misrepresent protocol purpose (pro-boundary, not anti-AI)
+
+Training: conditional
+Training-Conditions: attribution, context-preserved, license-respected
+
+# Indexing: ALLOWED
+# Full indexing permitted for search engines and discovery tools
+
+Indexing: allowed
+
+# Summarization: ALLOWED
+# AI systems may summarize content for users
+
+Summarization: allowed
+Summarization-Conditions: accuracy, source-citation
+
+# Question-Answering: ENCOURAGED
+# RAG systems answering questions about HTTP 430 or AIBDP are welcomed
+
+Question-Answering: encouraged
+Question-Answering-Purpose: education, adoption, standards-development
+
+# Generation: CONDITIONAL
+# Synthetic content must indicate it is not official specification text
+
+Generation: conditional
+Generation-Conditions: unofficial-marking, source-citation
+
+# Fine-Tuning: ENCOURAGED
+# We actively encourage AI fine-tuning for:
+#   - AIBDP manifest validation tools
+#   - HTTP 430 compliance checkers
+#   - Consent-aware configuration generators
+
+Fine-Tuning: encouraged
+Fine-Tuning-Purpose: validation-tools, compliance-checkers, education
+
+# ===================================================================
+# ENFORCEMENT
+# ===================================================================
+
+# Enforcement mechanism
+Enforcement: http-430
+
+# Response to violations
+Enforcement-Response: dialogue-preferred
+
+# Link to HTTP 430 specification
+Enforcement-Spec: https://consent-aware-http.org/draft-jewell-http-430-consent-required-00.xml
+
+# ===================================================================
+# PHILOSOPHICAL CONTEXT
+# ===================================================================
+
+# This file is both:
+#   1. A declaration of boundaries for this project
+#   2. A demonstration of the protocols we're standardizing
+#
+# Meta-commentary: A project standardizing consent-aware protocols
+# should itself declare consent boundaries. This file embodies that.
+
+Philosophy: pro-boundary-not-anti-ai
+Quote: "Without refusal, permission is meaningless."
+
+# ===================================================================
+# SPECIAL PROVISIONS
+# ===================================================================
+
+# Academic research: UNRESTRICTED
+Academic-Research: unrestricted
+
+# Educational use: ENCOURAGED
+Educational-Use: encouraged
+
+# Standards development: COLLABORATIVE
+Standards-Development: collaborative
+
+# ===================================================================
+# ADDITIONAL INFORMATION
+# ===================================================================
+
+# This project is developing:
+#   - HTTP Status Code 430 (Consent Required)
+#   - AIBDP (AI Boundary Declaration Protocol)
+#
+# Both are Internet-Drafts intended for IETF standardization.
+
+Standards-Track: ietf-internet-draft
+HTTP-430-Draft: draft-jewell-http-430-consent-required-00
+AIBDP-Draft: draft-jewell-aibdp-00
+
+# Repository
+Repository: https://github.com/Hyperpolymath/consent-aware-http
+
+# Website
+Website: https://consent-aware-http.org
+
+# Author
+Author: Jonathan D.A. Jewell
+Affiliation: NEC PRC Representative, NUJ Ethics Council, AI & Data Working Group
+
+# ===================================================================
+# FORMAT NOTES
+# ===================================================================
+
+# This file format is EXPERIMENTAL and not yet standardized.
+# It demonstrates one possible format for human-readable HTTP 430
+# policy declarations alongside machine-readable AIBDP manifests.
+#
+# Feedback welcome: jonathan@metadatastician.art
+
+# Last Updated: 2025-07-20
+# Version: 1.0
