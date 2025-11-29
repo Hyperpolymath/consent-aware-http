@@ -7,7 +7,7 @@ AIBDP + HTTP 430 Middleware for Flask
 Implements AI Boundary Declaration Protocol (AIBDP) enforcement
 with HTTP 430 (Consent Required) responses for Flask applications.
 
-License: MIT OR GPL-3.0-or-later
+License: MIT
 Author: Jonathan D.A. Jewell <jonathan@metadatastician.art>
 """
 

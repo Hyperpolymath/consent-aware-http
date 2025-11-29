@@ -8,7 +8,7 @@
  * with HTTP 430 (Consent Required) responses.
  *
  * @module aibdp-http430-middleware
- * @license MIT OR GPL-3.0-or-later
+ * @license MIT
  */
 
 import fs from 'fs/promises';

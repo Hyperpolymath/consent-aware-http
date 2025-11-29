@@ -7,54 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added (2025-07-20 RSR Gold Compliance)
-
-**RSR Gold Standard Achievement (94% Compliance):**
-- README.adoc - Comprehensive AsciiDoc format README (~500 lines)
-  - Complete document structure with TOC (3 levels)
-  - TPCF governance table
-  - Technical specifications with code examples
-  - Complete appendices (glossary, standards, compliance)
-  - Cultural quotes (bell hooks, Virginia Woolf)
-- LICENSE.txt - Dual MIT OR GPL-3.0-or-later licensing (plain text format)
-  - SPDX identifiers at top
-  - Palimpsest License v0.8 philosophically encouraged
-  - CC BY-SA 4.0 for documentation
-  - Clear downstream user guidance
-- FUNDING.yml - Solidarity economics framework
-  - Voluntary, transparent, community-focused
-  - PayPal and Ko-fi support links
-  - Ethical funding principles documented
-- GOVERNANCE.adoc - Comprehensive governance framework (~400 lines)
-  - BDT (Benevolent Dictator Temporarily) phase
-  - Transition to Steering Committee model
-  - Complete TPCF (Tri-Perimeter Contribution Framework)
-  - Decision-making authority matrix
-  - Financial governance and succession planning
-- .well-known/consent-required.txt - HTTP 430 protocol demonstration
-  - Self-referential implementation of project's own protocol
-  - Training: conditional, Indexing: allowed, Fine-tuning: encouraged
-- .well-known/provenance.json - Full project provenance chain
-  - AI assistance disclosure (Claude-3.5-Sonnet)
-  - Attribution preservation
-  - Transparent development process
-- REVERSIBILITY.md - Architectural principle documentation
-  - Git version control reversibility
-  - AIBDP manifest update procedures
-  - License transition paths
-  - Federated system exit strategies
-- RSR-COMPLIANCE.md - Comprehensive compliance assessment
-  - 94% overall compliance (RSR Gold: 90%+ threshold)
-  - 100% perfect in 4 categories (Documentation, Architecture, FOSS/Licensing, Governance)
-  - Detailed evidence for each requirement
-  - Certification statement and continuous compliance plan
-
-**Repository Standards:**
-- .gitignore updated to preserve LICENSE.txt, LICENSE-*.txt, .well-known/*.txt
-- AsciiDoc format for all major documentation (RSR requirement)
-- Plain text LICENSE.txt (RSR requirement)
-- Complete .well-known/ directory (6 files: security.txt, ai.txt, humans.txt, aibdp.json, consent-required.txt, provenance.json)
-
 ### Added (2025-07-20 Development Session)
 
 **RSR Framework Compliance:**

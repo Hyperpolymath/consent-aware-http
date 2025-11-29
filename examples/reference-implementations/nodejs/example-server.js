@@ -1,6 +1,3 @@
-// SPDX-License-Identifier: MIT OR GPL-3.0-or-later
-// SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
-
 /**
  * Example Express server demonstrating AIBDP + HTTP 430 middleware
  *
