@@ -50,8 +50,8 @@ validate: validate-manifests validate-security-txt validate-drafts
 # Check RSR (Rhodium Standard Repository) compliance
 check-rsr:
     @echo "🔍 Checking RSR Framework Compliance..."
-    @just --quiet _check-file "README.md" "Repository documentation"
-    @just --quiet _check-file "LICENSE.md" "License file"
+    @just --quiet _check-file "README.adoc" "Repository documentation"
+    @just --quiet _check-file "LICENSE.txt" "License file"
     @just --quiet _check-file "CODE_OF_CONDUCT.md" "Code of Conduct"
     @just --quiet _check-file "CONTRIBUTING.md" "Contribution guidelines" ".github/CONTRIBUTING.md"
     @just --quiet _check-file "SECURITY.md" "Security policy" ".github/SECURITY.md"

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT OR GPL-3.0-or-later
+# SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
+
 """
 AIBDP + HTTP 430 Middleware for Flask
 

@@ -1,0 +1,162 @@
+/* TEAM */
+
+Lead Designer & Protocol Author: Jonathan D.A. Jewell
+Role: Primary Maintainer, Ethics Convenor, IETF Coordinator
+Affiliation: NEC PRC Representative, NUJ Ethics Council
+Working Group: AI & Data Working Group (Convenor)
+Contact: jonathan [at] metadatastician.art
+Location: United Kingdom
+GitHub: @Hyperpolymath
+
+/* THANKS */
+
+Inspiration & Theoretical Foundation:
+- bell hooks (Cultural Criticism, Boundary Theory)
+- Virginia Woolf (Architecture of Refusal)
+- National Union of Journalists (NUJ Ethics Council)
+- IndieWeb Community (Federated Publishing, Self-Sovereignty)
+- IETF Community (Standards Development, Protocol Design)
+- Society of Professional Journalists (SPJ Code of Ethics)
+- Open Rights Group (Digital Rights Advocacy)
+- Electronic Frontier Foundation (Digital Civil Liberties)
+
+Technical Influences:
+- RFC 7231 (HTTP/1.1 Semantics)
+- RFC 7725 (HTTP 451 - Legal Obstacles)
+- RFC 9116 (security.txt)
+- RFC 9052 (COSE - CBOR Object Signing and Encryption)
+- W3C Web Standards Community
+- JSON Schema Community
+- xml2rfc Toolchain Maintainers
+
+Cultural & Philosophical Contributors:
+- Journalism ethics traditions (Hutchins Commission, SPJ)
+- Critical theory scholars
+- Consent theory researchers
+- Digital rights activists
+- Federated web advocates
+- Open source maintainers prioritizing emotional safety
+
+/* SITE */
+
+Last update: 2025-07-20
+Standards: Internet-Draft (IETF), RFC XML v3 (RFC 7991)
+Components: HTTP 430 Status Code, AIBDP (AI Boundary Declaration Protocol)
+Languages: English (primary), translations welcome
+Doctype: Specification Repository
+Repository: https://github.com/Hyperpolymath/consent-aware-http
+Primary Language: XML (Internet-Drafts), Markdown (Documentation)
+IDE: Various (VS Code, Vim, Emacs - we're tool-agnostic)
+
+/* PHILOSOPHY */
+
+Core Principle: "Without refusal, permission is meaningless."
+
+This project treats boundary-setting as a cultural practice, not just
+a technical feature. It respects:
+- Declarative refusal as care
+- Transparent infrastructure over implied permissions
+- Sanctuary work as procedural and cultural
+- Authorship dignity in the age of generative systems
+
+We are pro-boundary, not anti-AI.
+
+/* LICENSING */
+
+Code & Specifications: MIT License
+Documentation & Narrative: CC BY-SA 4.0
+
+This dual-license model ensures:
+- Technical work can be freely implemented
+- Cultural context is preserved and shared ethically
+- Derivative works remain open and attributed
+
+See LICENSE.md for complete details.
+
+/* STANDARDS TRACK */
+
+HTTP 430 Consent Required:
+- Status: Internet-Draft (Initial Submission)
+- Target: IETF HTTP Working Group
+- Revision: 00 (July 2025)
+
+AIBDP (AI Boundary Declaration Protocol):
+- Status: In Development
+- Target: IETF, W3C, or Joint Submission
+- Format: JSON Manifest at /.well-known/aibdp.json
+
+/* ADOPTION */
+
+We welcome:
+- Personal blogs and federated platforms
+- News organizations and journalism archives
+- Academic repositories and research institutions
+- Content management systems and web frameworks
+- CDN providers and edge computing platforms
+- Any entity seeking to declare AI usage boundaries
+
+See docs/start-here.md for implementation guidance.
+
+/* COMMUNITY */
+
+Contribution Guidelines: .github/CONTRIBUTING.md
+Code of Conduct: CODE_OF_CONDUCT.md
+Security Policy: .github/SECURITY.md
+Maintainers: MAINTAINERS.md
+
+Primary Channels:
+- GitHub Issues (bugs, feature requests)
+- GitHub Discussions (philosophy, strategy, community)
+- Email (jonathan@metadatastician.art)
+
+/* QUOTES */
+
+"Boundary is where meaning begins."
+- bell hooks
+
+"You have not the freedom of the house."
+- Virginia Woolf, The Waves
+
+"The right to refuse is the foundation of all other rights."
+- Journalism Ethics Tradition
+
+/* META */
+
+This humans.txt file is part of the consent-aware-http standards project.
+
+We chose to include humans.txt because:
+1. It acknowledges the human authorship behind protocols
+2. It demonstrates transparency in attribution
+3. It respects the tradition of making invisible labor visible
+4. It aligns with our philosophical commitment to dignity
+
+If you're reading this, you've found the human layer beneath the code.
+
+Thank you for caring about boundaries, consent, and ethical infrastructure.
+
+/* CONTRIBUTE */
+
+We need:
+- Protocol reviewers (IETF experience helpful)
+- Reference implementation developers
+- Documentation writers
+- Ethical AI researchers
+- Community organizers
+- Translators
+- Adopters willing to share their stories
+
+See CONTRIBUTING.md to get involved.
+
+/* END */
+
+Built with care, maintained with dignity, shared with hope.
+
+                    .─────────.
+                  ╱             ╲
+                 │  CONSENT     │
+                 │  REQUIRED    │
+                  ╲             ╱
+                    `─────────'
+                        430
+
+Last updated: 2025-07-20
